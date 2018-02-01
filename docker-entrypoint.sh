@@ -17,4 +17,5 @@ if [ "x$DJANGO_MANAGEPY_COLLECTSTATIC" = 'xon' ]; then
     /venv/bin/python3 manage.py collectstatic --noinput
 fi
 
+
 exec "$@"

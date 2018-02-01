@@ -1,3 +1,21 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}"/>
+
+<div>
+	<h1><a href="/">Home</a></h1>
+</div>
+
+<div>
+	<ul>
+		<li><a href="/">home</a></li>
+		<li><a href="/blog/">blog</a></li>
+		<li><a href="/polls/">polls</a></li>
+		<li><a href="/home/">asdf</a></li>
+	</ul>
+</div>
+
+
 {% if latest_question_list %}
 	<ul>
 	{% for question in latest_question_list %}

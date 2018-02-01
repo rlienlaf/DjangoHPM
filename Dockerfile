@@ -4,6 +4,16 @@ ENV DATABASE_URL=${DATABASE_URL}
 # Copy in your requirements file
 ADD requirements.txt /requirements.txt
 
+
+ENV DJANGO_DB_NAME=default
+ENV DJANGO_SU_NAME=admin
+ENV DJANGO_SU_EMAIL=admin@example.org
+ENV DJANGO_SU_PASSWORD=hpmintranet
+
+
+
+
+
 # OR, if you’re using a directory for your requirements, copy everything (comment out the above and uncomment this if so):
 # ADD requirements /requirements
 

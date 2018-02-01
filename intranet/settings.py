@@ -27,7 +27,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ADMINS = [('admin', 'admin@asdfasdf.com', 'intranethpm')]
+ADMINS = ['admin', 'admin@example.asdf', 'hpmintranet']
 ALLOWED_HOSTS = ['*']
 
 
@@ -44,10 +44,11 @@ INSTALLED_APPS = (
     'intranet',
     'blog',
     'polls',
+    'home',
 )
 
-MIDDLEWARE_CLASSES = (
-    'django.middleware.security.SecurityMiddleware'
+MIDDLEWARE = (
+    'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -64,7 +65,7 @@ WSGI_APPLICATION = 'intranet.wsgi.application'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
