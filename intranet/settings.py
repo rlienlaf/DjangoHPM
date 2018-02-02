@@ -45,6 +45,7 @@ INSTALLED_APPS = (
     'blog',
     'polls',
     'home',
+    'core',
 )
 
 MIDDLEWARE = (
@@ -56,7 +57,6 @@ MIDDLEWARE = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
-
 ROOT_URLCONF = 'intranet.urls'
 
 
