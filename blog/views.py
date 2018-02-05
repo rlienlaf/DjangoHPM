@@ -13,7 +13,7 @@ def detail(request, post_id):
     return render(request, 'blog/detail.html', {'post':post})
 
 def post_list(request):
-    posts = Post.objects.filter(pulished_date__lte=timnezone.now()).order_by('published_date')
+    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
     return render(request, 'blog/post_list.html', {'posts': posts})
 
 
