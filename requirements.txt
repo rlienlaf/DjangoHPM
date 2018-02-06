@@ -2,3 +2,4 @@ Django==2.0.1
 uwsgi
 psycopg2
 dj-database-url
+django-bootstrap4
