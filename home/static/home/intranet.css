@@ -21,8 +21,7 @@
 .vertical-menu .dropdown-btn {
     padding: 12px;
     text-decoration: none;
-    font-size: 20px;
-    color: #818181;
+    color: white;
     display: block;
     border: none;
     background-color: #4CAF50;
@@ -30,7 +29,7 @@
     cursor: pointer;
 }
 .active {
-    background-color: green;
+    background-color: #FF6600;
     color: white;
 }
 
