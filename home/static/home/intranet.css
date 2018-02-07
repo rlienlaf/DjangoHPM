@@ -9,7 +9,7 @@
     display: block
 }
 
-.vertical-menu a, .dropdown-btn {
+.vertical-menu a {
     background-color: #eee; /* Grey background color */
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
@@ -19,17 +19,19 @@
 
 
 .vertical-menu .dropdown-btn {
-    padding: 6px 8px 6px 16px;
+    padding: 12px;
     text-decoration: none;
     font-size: 20px;
     color: #818181;
     display: block;
     border: none;
-    background: none;
+    background-color: #4CAF50;
     width: 100%;
-    text-align: left;
     cursor: pointer;
-    outline: none;
+}
+.active {
+    background-color: green;
+    color: white;
 }
 
 
