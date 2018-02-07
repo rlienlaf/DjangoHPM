@@ -1,10 +1,6 @@
 .jumbotron{
 	background-color: #f9f9f9;
 }
-+
-.list-all-button{
-	background-color: #f9f9f9;
-}
 
 .col-height{
 	height: 300px;
@@ -103,7 +99,7 @@
     right: 25px;
     font-size: 80px;
     margin-left: 60px;
-    color: #000000;
+    color: black;
 }
 
 
