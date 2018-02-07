@@ -6,6 +6,10 @@
 	background-color: #f9f9f9;
 }
 
+.card-main{
+	height: 400px;
+}
+
 .vertical-menu {
     width: 300px; /* Set a width if you like */
 }
