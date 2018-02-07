@@ -12,7 +12,7 @@
 
 .vertical-menu h3 {
     background-color: #FF6600; 
-    color: green; /*white */
+    color: white; /*white */
     padding: 12px;
     display: block;
 }
@@ -29,7 +29,7 @@
 .vertical-menu .dropdown-btn {
     padding: 12px;
     text-decoration: none;
-    color: blue;/*white */
+    color: white;/*white */
     display: block;
     border: none;
     background-color: #4CAF50;
@@ -45,7 +45,7 @@
 
 .vertical-menu a.active {
     background-color: #4CAF50; /* Add a green color to the "active/current" link */
-    color: red;/*white */
+    color: white;/*white */
 }
 
 
@@ -73,7 +73,7 @@
     background-color: #FFFFFF; /* White*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.6s; /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
     z-index: 9999;
 }
 
@@ -115,10 +115,6 @@
     .intranet-left-sidenav a {font-size: 18px;}
 } 
 
-.card {
-  height: 100%;
-  max-width: 200px;
-}
 
 
 
