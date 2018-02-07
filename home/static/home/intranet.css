@@ -12,7 +12,7 @@
 
 .vertical-menu h3 {
     background-color: #FF6600; 
-    color: white;
+    color: green; /*white */
     padding: 12px;
     display: block;
 }
@@ -29,7 +29,7 @@
 .vertical-menu .dropdown-btn {
     padding: 12px;
     text-decoration: none;
-    color: white;
+    color: blue;/*white */
     display: block;
     border: none;
     background-color: #4CAF50;
@@ -45,7 +45,7 @@
 
 .vertical-menu a.active {
     background-color: #4CAF50; /* Add a green color to the "active/current" link */
-    color: white;
+    color: red;/*white */
 }
 
 

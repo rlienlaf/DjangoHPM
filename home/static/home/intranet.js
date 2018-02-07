@@ -22,7 +22,7 @@ for (i = 0; i < dropdown.length; i++) {
       	dropdownContent.style.display = "none";
     } else {
     	for (j = 0; j < dropdown.length; j++) {
-    		dropdown[j].style.display = "none";
+    		dropdown[j].nextElementSibling.style.display = "none";
     	}
       	dropdownContent.style.display = "block";
     }
