@@ -69,7 +69,6 @@
     left: 0;
     background-color: #FFFFFF; /* White*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
     transition: 0.1s; /* 0.5 second transition effect to slide in the sidenav */
     z-index: 9998;
 }
@@ -89,9 +88,13 @@
     color: #919191;
 }
 
+.intranet-left-sidenav row {
+	padding-top: 40px;
+}
+
 /* Position and style the close button (top right corner) */
 .intranet-left-sidenav .closebtn {
-	padding-top: -60px;
+	text-decoration: none;
     position: absolute;
     top: 0;
     right: 25px;
