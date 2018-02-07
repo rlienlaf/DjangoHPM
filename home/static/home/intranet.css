@@ -1,9 +1,7 @@
-body{
-	background-image: url("https://fpsxgames.files.wordpress.com/2011/09/tile.jpg")
-}
 .jumbotron{
-	background-image: url("http://i.vimeocdn.com/video/563959868_1280x720.jpg");
+	background-color: #f9f9f9;
 }
+
 .vertical-menu {
     width: 300px; /* Set a width if you like */
 }
