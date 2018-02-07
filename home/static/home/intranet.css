@@ -1,6 +1,10 @@
 .jumbotron{
 	background-color: #f9f9f9;
 }
++
+.list-all-button{
+	background-color: #f9f9f9;
+}
 
 .vertical-menu {
     width: 300px; /* Set a width if you like */
