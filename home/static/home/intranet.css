@@ -28,10 +28,7 @@
     width: 100%;
     cursor: pointer;
 }
-.active {
-    background-color: #FF6600;
-    color: white;
-}
+
 
 
 .vertical-menu a:hover .dropdown-btn:hover {
