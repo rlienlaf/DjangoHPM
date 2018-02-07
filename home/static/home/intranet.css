@@ -71,3 +71,8 @@
     .intranet-left-sidenav {padding-top: 15px;}
     .intranet-left-sidenav a {font-size: 18px;}
 } 
+
+.card {
+  height: 100%;
+  max-width: 50px;
+}
