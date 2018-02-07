@@ -27,7 +27,6 @@
     background-color: #4CAF50;
     width: 100%;
     cursor: pointer;
-    transition: 0.8s;
 }
 
 
@@ -66,7 +65,7 @@
     background-color: #FFFFFF; /* White*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.8s; /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.6s; /* 0.5 second transition effect to slide in the sidenav */
     z-index: 9999;
 }
 
