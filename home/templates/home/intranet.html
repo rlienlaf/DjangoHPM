@@ -2,24 +2,422 @@
 
 {% load bootstrap4 %}
 
-{% block content %}
-
-
-
 {% bootstrap_css %}
 {% bootstrap_javascript %}
 
 {% bootstrap_messages %}
 
-<form method="post" class="asdf">
-	{% csrf_token %}
-	{% bootstrap_form form %}
-	<!--{#{{ form.as_p }}#}-->
-	{% buttons %}
-		<button type="submit" class="btn btn-primary">
-			 Submit
-		</button>
-	{% endbuttons %}
-</form>
+{% block full_sidenav %}
 
+
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="row text-center">
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.22/produccion/login.php">
+              <img class="card-img-top" src="{% static 'images/HPMsistemascubo.png' %}" alt="Sistemas Expertos" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Experto1</h4>
+              <p class="card-text">Sistemas Expertos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.22/produccion/login.php" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.22/produccion/login.php">
+              <img class="card-img-top" src="{% static 'images/HPMsistemascubo.png' %}" alt="Sistemas Expertos" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Experto1</h4>
+              <p class="card-text">Sistemas Expertos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.22/produccion/login.php" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/Policlinico%20Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital">
+              <img class="card-img-top" src="{% static 'images/serviciodesalud1.png' %}" alt="Policlínico Digital" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Polidigital1</h4>
+              <p class="card-text">Policlínico Digital</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/Policlinico%20Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+      <div class="row text-center">
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.22/produccion/login.php">
+              <img class="card-img-top" src="{% static 'images/HPMsistemascubo.png' %}" alt="Sistemas Expertos" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Experto1</h4>
+              <p class="card-text">Sistemas Expertos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.22/produccion/login.php" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.22/produccion/login.php">
+              <img class="card-img-top" src="{% static 'images/HPMsistemascubo.png' %}" alt="Sistemas Expertos" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Experto1</h4>
+              <p class="card-text">Sistemas Expertos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.22/produccion/login.php" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/Policlinico%20Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital">
+              <img class="card-img-top" src="{% static 'images/serviciodesalud1.png' %}" alt="Policlínico Digital" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Polidigital1</h4>
+              <p class="card-text">Policlínico Digital</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/Policlinico%20Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+			<div class="row text-center">
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.22/produccion/login.php">
+              <img class="card-img-top" src="{% static 'images/HPMsistemascubo.png' %}" alt="Sistemas Expertos" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Experto1</h4>
+              <p class="card-text">Sistemas Expertos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.22/produccion/login.php" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.22/produccion/login.php">
+              <img class="card-img-top" src="{% static 'images/HPMsistemascubo.png' %}" alt="Sistemas Expertos" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Experto1</h4>
+              <p class="card-text">Sistemas Expertos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.22/produccion/login.php" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/Policlinico%20Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital">
+              <img class="card-img-top" src="{% static 'images/serviciodesalud1.png' %}" alt="Policlínico Digital" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Polidigital1</h4>
+              <p class="card-text">Policlínico Digital</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/Policlinico%20Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <div class="card">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:100px;height:100px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive1</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+{% endblock %}
+
+
+{% block nav %}
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">INTRANET</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="http://www.hospitalpuertomontt.cl/">HPM
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://ssrelon.redsalud.gob.cl/">SSDR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Informática</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+{% endblock %}
+
+{% block jumboheader %}
+      <!-- Jumbotron Header -->
+      <header class="jumbotron my-4">
+        <h1 class="display-3">Hospital Puerto Montt</h1>
+        <p class="lead">Dr. Eduardo Schütz Schroeder</p>
+        <!--<a href="#" class="btn btn-primary btn-lg">Ayuda</a>-->
+      </header>
+{% endblock %}
+
+{% block content %}
+      <!-- Page Features -->
+      <div class="row text-center">
+        <div class="col-lg-auto col-md-6 mb-4">
+          <div class="vertical-menu">
+            <h3>Servicios</h3>
+            <button class="dropdown-btn">Sistemas Administrativos
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="http://www.hospitalpuertomontt.cl/">
+                <p><img src="{% static 'images/HPMsistemascubo.png' %}" alt="Hospital Puerto Montt" style="float:left;width:42px;height:42px;">
+Hospital Puerto Montt</p>
+              </a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Sistemas Clínicos
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Minsal1
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Minsal2
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Otros Servicios
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <!-- Use any element to open the sidenav -->
+            <span style="font-size:15px;cursor:pointer;" onclick="openNav()">&#9776; Todos los servicios</span>
+          </div> 
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 col-height">
+          <div class="card w3-hover-shadow card-main">
+            <a href="http://10.7.120.22/produccion/login.php">
+              <img class="card-img-top" src="{% static 'images/HPMsistemascubo.png' %}" alt="Sistemas Expertos" style="width:150px;height:150px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Experto</h4>
+              <p class="card-text">Sistemas Expertos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.22/produccion/login.php" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 col-height">
+          <div class="card w3-hover-shadow card-main">
+            <a href="http://10.7.120.220/Policlinico%20Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital">
+              <img class="card-img-top" src="{% static 'images/serviciodesalud1.png' %}" alt="Policlínico Digital" style="width:150px;height:150px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Polidigital</h4>
+              <p class="card-text">Policlínico Digital</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/Policlinico%20Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 col-height">
+          <div class="card w3-hover-shadow card-main">
+            <a href="http://10.7.120.220/accesonube/">
+              <img class="card-img-top" src="{% static 'images/hpmdrive.png' %}" alt="HPM Drive" style="width:150px;height:150px;">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">HPM Drive</h4>
+              <p class="card-text">Archivos compartidos</p>
+            </div>
+            <!--<div class="card-footer">
+              <a href="http://10.7.120.220/accesonube/" class="btn btn-primary">Ir a</a>
+            </div>-->
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
 {% endblock %}
