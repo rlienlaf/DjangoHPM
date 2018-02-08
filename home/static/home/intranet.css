@@ -122,8 +122,8 @@
   height: 100%;
   max-width: 200px;
 }
-.card-main {
-  width: 250px;
+.intranet-main-page-card {
+  max-width: 250px;
 }
 
 
