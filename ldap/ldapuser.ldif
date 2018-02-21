@@ -1,0 +1,4 @@
+dn: uid=cmoncada,ou=People,dc=hpm,dc=cl
+changetype: modify
+replace: userPassword
+userPassword: 1234

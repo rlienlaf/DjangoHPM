@@ -1,0 +1,19 @@
+dn: dc=hpm,dc=cl
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: Hospital Puerto Montt
+dc: hpm
+
+dn: cn=Manager,dc=hpm,dc=cl
+objectClass: organizationalRole
+cn: Manager
+description: Directory Manager
+
+dn: ou=People,dc=hpm,dc=cl
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=hpm,dc=cl
+objectClass: organizationalUnit
+ou: Group
