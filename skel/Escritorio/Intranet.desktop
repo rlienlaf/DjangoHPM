@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Intranet
+Icon=/usr/share/icons/hicolor/256x256/apps/firefox.png
+Type=Application
+Exec=firefox "10.7.120.68/hpm_intro"
+Terminal=false

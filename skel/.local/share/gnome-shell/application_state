@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="yelp.desktop" open-window-count="0" score="0" last-seen="1518718698"/>
+    <application id="firefox.desktop" open-window-count="0" score="17" last-seen="1518793873"/>
+    <application id="terminator.desktop" open-window-count="0" score="0" last-seen="1518797306"/>
+    <application id="libreoffice-startcenter.desktop" open-window-count="0" score="1" last-seen="1518801428"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="24" last-seen="1518797303"/>
+    <application id="gnome-tweak-tool.desktop" open-window-count="0" score="21" last-seen="1518786390"/>
+    <application id="libreoffice-calc.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="0" score="1032" last-seen="1518793675"/>
+  </context>
+</application-state>
