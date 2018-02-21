@@ -1,16 +1,12 @@
 #!/bin/bash
 #clear
 source ~/user_id.conf
-
 echo -n "Ingrese nombre de usuario: "
 read USER_ID
 echo -n "Ingrese contraseña: "
 read USER_PASS
-
 let USER_NUMBER=$LAST_NUMBER+1
-
 LDIF=ldapuser.ldif
-
 echo "dn: uid=$USER_ID,ou=People,dc=hpm,dc=cl" > $LDIF
 echo "objectClass: inetOrgPerson" >> $LDIF
 echo "objectClass: posixAccount" >> $LDIF
@@ -28,12 +24,7 @@ echo "objectClass: posixGroup" >> $LDIF
 echo "cn: $USER_ID" >> $LDIF
 echo "gidNumber: $USER_NUMBER" >> $LDIF
 echo "memberUid: $USER_ID" >> $LDIF
-
 ldapadd -x -D "cn=Manager,dc=hpm,dc=cl" -w hpm -f ldapuser.ldif
 id $USER_ID
-
 mkhomedir_helper $USER_ID
-#su $USER_ID -c "xdg-user-dirs-update"
-#cd /home/$USER_ID
-#su $USER_ID -c ..........
 echo "LAST_NUMBER=$USER_NUMBER" > user_id.conf
