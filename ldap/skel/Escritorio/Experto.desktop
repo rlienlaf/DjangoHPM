@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Experto
-Icon=/usr/share/icons/hicolor/256x256/apps/firefox.png
-Type=Application
-Exec=firefox "http://10.7.120.22/produccion/login.php"
-Terminal=false
-GenericName=A descriptive name
-Comment=Some description about your script

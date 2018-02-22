@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Polidigital
-Icon=/usr/share/icons/hicolor/256x256/apps/firefox.png
-Type=Application
-Exec=firefox "http://10.7.120.220/Policlinico Digital/index.aspx?ReturnUrl=%2fpoliclinico+digital"
-Terminal=false
-GenericName=A descriptive name
-Comment=Some description about your script
