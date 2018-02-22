@@ -1,6 +1,6 @@
 #!/bin/bash
 #clear
-source ~/user_id.conf
+source ./user_id.conf
 echo -n "Ingrese nombre de usuario: "
 read USER_ID
 echo -n "Ingrese contraseña: "
